@@ -4,6 +4,8 @@ My completed projects and study notes from learning Full Stack Development with 
 
 # What I already know
 
+-   Advanced MacOS and Windows
+-   Intermmediate web, servers and the internet
 -   Basic bash and command line
 -   Intermmediate HTML and CSS
 -   Basic JavaScript (variables, arrays, ES6 functions and destructuring, FP, OOP and some of the higher order functions (map, filter, sort))
