@@ -7,12 +7,12 @@ My completed projects and study notes from learning Full Stack Development with 
 -   Advanced MacOS and Windows
 -   Intermmediate web, servers and the internet
 -   Basic bash and command line
+-   Intermmediate Git and GitHub
 -   Intermmediate HTML and CSS
 -   Basic JavaScript (variables, arrays, ES6 functions and destructuring, FP, OOP and some of the higher order functions (map, filter, sort))
 -   Basic React (components, props, useState hook)
 -   Basic SASS
 -   Handling static assets in HTML and React
--   Using Git to document notes and code
 -   Using VS Code and Zed
 -   Basic Figma
 -   Basic SQL

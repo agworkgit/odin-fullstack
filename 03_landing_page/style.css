@@ -1,0 +1,261 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Buttons */
+
+.hero-button {
+    padding: 0.5rem 1.5rem;
+    color: white;
+    background-color: #4780eb;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.hero-button:hover {
+    background-color: #2651a0;
+    transition: 0.3s ease-in-out;
+}
+
+.cta-button {
+    padding: 0.5rem 1.5rem;
+    color: white;
+    background-color: #4780eb;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    text-wrap: nowrap;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background-color: #1c4ba4;
+    transition: 0.3s ease-in-out;
+}
+
+/* Header & Nav */
+
+header {
+    background-color: #121f30;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+nav h1:hover {
+    color: #bdbdbd;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    font-size: 0.75rem;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 0.35rem;
+    padding: 0.25rem 0.75rem;
+}
+
+a:hover {
+    color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+}
+
+/* Hero */
+
+#hero {
+    background-color: #121f30;
+    color: white;
+}
+
+#hero-container {
+    width: 70vw;
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0rem 3rem 0rem;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.hero-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1.25rem;
+    /* width: 50%; */
+    /* height: 300px; */
+}
+
+.hero-details h2 {
+    font-size: 2rem;
+}
+
+.hero-details p {
+    font-size: 1rem;
+    color: #b4b4b4;
+    line-height: 1.25rem;
+    font-weight: 300;
+}
+
+.hero-image {
+    display: flex;
+    /* width: 300px; */
+}
+
+.hero-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Info */
+
+#info {
+    text-align: center;
+    padding: 3rem 0rem 4rem 0rem;
+}
+
+#info h2 {
+    padding-bottom: 2rem;
+}
+
+#info p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.img-container {
+    width: 100px;
+}
+
+.img-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 1rem;
+    border: 3px solid #4780eb;
+    overflow: clip;
+}
+
+/* Testimonials */
+
+#quote {
+    background-color: #e8e8e8;
+}
+
+#quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 70vw;
+    margin: 0 auto;
+    padding-block: 5rem;
+}
+
+#quote-content p:nth-of-type(1) {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#quote-content p:nth-of-type(2) {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Call to action */
+
+#cta {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 25vh;
+}
+
+#sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    background-color: #4780eb;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.cta-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+
+.cta-details h3 {
+    font-weight: 600;
+}
+
+.cta-details p {
+    font-weight: 300;
+}
+
+/* Footer */
+
+footer {
+    padding: 2rem 0rem;
+    text-align: center;
+    background-color: #121f30;
+    color: white;
+    font-size: 0.75rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    #hero-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    #sign-up {
+        flex-direction: column;
+        align-items: start;
+    }
+}
