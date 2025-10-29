@@ -10,6 +10,6 @@ const rl = readline.createInterface({
 });
 // Get input from the user and run the function
 rl.question(`Please input a number to start fizzBuzz: `, (num) => {
-    fizzBuzz(Number(num));
+    fizzBuzz(parseInt(num)); // Input is a string, parse as integer
     rl.close();
 });
